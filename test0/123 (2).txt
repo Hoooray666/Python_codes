@@ -1,0 +1,2 @@
+ml -c -coff hello.asm
+link -subsystemwindows hello.obj
