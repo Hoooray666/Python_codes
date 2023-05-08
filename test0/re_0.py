@@ -13,3 +13,6 @@ for char in string1:
     flag1 += chr((ord(char) - 97 - 7) * 9 % 26 + 97)
 
 print(flag1)
+a = '1234567890_ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+x = 10;
+print(a[(((25*x)-28)%37)])
